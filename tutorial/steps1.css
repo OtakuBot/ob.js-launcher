@@ -1,0 +1,32 @@
+/*
+-- OtakuBot Tutorial [ Designed By NightcoreATDZO#3550 ] --
+*/
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: gray;
+  }
+  
+  .header {
+    padding: 40px;
+    text-align: center;
+    background: ddd;
+  }
+  .header h1 {
+    text-align:center; 
+    font-size: medium; 
+    color: dark; 
+    font-family: agency fb;
+    background-color: ddd;
+    padding: 20px;
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 50;
+    color: dark;
+    font-family: agency fb;
+  }

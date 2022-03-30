@@ -32,6 +32,10 @@ client.commands = new Collection();
 client.aliases = new Collection();
 client.categories = fs.readdirSync("./commands/");
 
+// ---- [ Check steps1.html ] ---- //
+// ----- [ Command | Event ] ----- //
+// ------------REQUIRED------------//
+
 ["command", "event"].forEach(handler => {
     require(`./handlers/${handler}`)(client);
 });
